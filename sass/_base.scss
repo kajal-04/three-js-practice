@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  @extend .m-0, .p-0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box; 
+}
+
+body {
+  font-family:  sans-serif ;
+}
